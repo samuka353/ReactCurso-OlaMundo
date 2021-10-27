@@ -1,0 +1,26 @@
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+[1mdiff --git a/src/App.js b/src/App.js[m
+[1mindex 3784575..b51609e 100644[m
+[1m--- a/src/App.js[m
+[1m+++ b/src/App.js[m
+[36m@@ -6,15 +6,10 @@[m [mfunction App() {[m
+     <div className="App">[m
+       <header className="App-header">[m
+         <img src={logo} className="App-logo" alt="logo" />[m
+[31m-        <p>[m
+[31m-          Edit <code>src/App.js</code> and save to reload.[m
+[31m-        </p>[m
+[31m-        <a[m
+[31m-          className="App-link"[m
+[31m-          href="https://reactjs.org"[m
+[31m-          target="_blank"[m
+[31m-          rel="noopener noreferrer"[m
+[31m-        >[m
+[32m+[m[32m        <h1>[m
+[32m+[m[32m          Olá Mundo.[m
+[32m+[m[32m        </h1>[m
+[32m+[m[32m        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">[m
+           Learn React[m
+         </a>[m
+       </header>[m
